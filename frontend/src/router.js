@@ -14,6 +14,11 @@ const routes = [
     component: () => import('@/pages/MobileNotification.vue'),
   },
   {
+    path: '/quick-add-lead',
+    name: 'QuickAddLead',
+    component: () => import('@/pages/QuickAddLead.vue'),
+  },
+  {
     alias: '/leads',
     path: '/leads/view/:viewType?',
     name: 'Leads',
